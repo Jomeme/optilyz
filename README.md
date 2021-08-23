@@ -1,5 +1,5 @@
 # optilyz
-For optilyz coding challenge
+For optilyz coding challenge. The code is on the master branch.
 
 Run:
 
