@@ -20,3 +20,7 @@ module.exports.initializeDatabase = async () => {
     logger.error('Error initializing mongodb', error);
   }
 };
+
+module.exports.dropDb = async () => {
+  await mongoose.connection.collections['users'].drop();
+};
